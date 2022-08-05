@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="тестировщик, QA, Junior" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>Владимир Лещенко</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Лещенко</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon"></i>Главная
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>Образование
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>Использую
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>Опыт работы
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- Все элементы в этом div создаются в формате PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== Главная ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="./assets/img/perfil.jpg" alt="" class="home__img" />
+
+                <h1 class="home__title">ВЛАДИМИР <b>ЛЕЩЕНКО</b></h1>
+                <h3 class="home__profession">React Developer</h3>
+
+                <!-- Кнопка для создания и загрузки pdf. -->
+                <div>
+                  <a
+                    download=""
+                    href="./assets/pdf//Leshenko-ReactDeveloper-Cv.pdf"
+                    class="home__button-movil"
+                    >Скачать CV</a
+                  >
+                </div>
+              </div>
+
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i> Донецк
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i> lvn.new@gmail.com
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i> +7 949 465-51-72
+                </span>
+              </div>
+            </div>
+            <!-- Кнопка смены темы -->
+
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+
+            <!-- Кнопка для создания и загрузки pdf. Для ПК. -->
+
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
+
+          <!--========== Соц. сети ==========-->
+          <section class="social section">
+            <h2 class="section-title">СOЦ. СЕТИ</h2>
+
+            <div class="social__container bd-grid">
+              <a
+                href="https://www.linkedin.com/in/lvnnew/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social__icon"></i> lvnnew
+              </a>
+              <a
+                href="https://github.com/lvnnew"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-github social__icon"></i> lvnnew
+              </a>
+              <a
+                href="https://t.me/leshenkov"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-telegram social__icon"></i> leshenkov
+              </a>
+            </div>
+          </section>
+
+          <!--========== Образование ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Образование</h2>
+
+            <div class="education__cantainer bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!--<span class="education__line"></span>-->
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Среднее</h3>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">QA Engeneer</h3>
+                  <span class="education__studies">GeekBrains</span>
+                  <span class="education__studies"
+                    >QA course by Vadim Ksendzov</span
+                  >
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">React Developer</h3>
+                  <span class="education__studies"
+                    >React course by Damir Manapov</span
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== Скилы  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Использую</h2>
+
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Jira
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Postman
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Insomnia
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Charles
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Fiddler
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> DevTools
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Git
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> DBeaver
+                </li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span> React
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> TypeScript
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> MUI
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Jest
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Prisma
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> GraphQL
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> PosgreSQL
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== Опыт ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">ОПЫТ РАБОТЫ</h2>
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">React Developer</h3>
+                  <span class="experience__company">c 2022 | Аэролабс </span>
+                  <p class="experience__description">
+                    Реализация UI-компонентов | Реализация переиспользуемых
+                    компонентов | Рефакторинг | Фикс багов | Покрытие кода
+                    тестами
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">QA Engeneer</h3>
+                  <span class="experience__company"
+                    >c 2020 по 2021 | Test IT
+                  </span>
+                  <p class="experience__description">
+                    Функциональное тестирование | Нефункциональное тестирование
+                    | Регрессионное тестирование | Тестирование GUI |
+                    Тестирование API с помощью Swagger | Кроссбраузерное
+                    тестирование | Составление тест кейсов и чек листов | Работа
+                    с требованиями (User Stories) | Оформление баг репортов в
+                    JIRA | Ревью тест кейсов и чек листов | Корректировка и
+                    актуализация тест кейсов | Составление отчетов о
+                    тестировании
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">КЛАДОВЩИК</h3>
+                  <span class="experience__company"
+                    >c 2019 по 2020 | GOODZONE</span
+                  >
+                  <p class="experience__description">
+                    Прием и обработка товара по накладным | распределение товара
+                    внутри складов | распределение товар по магазинам торговой
+                    сети.
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    ДИЗАЙНЕР ВЕКТОРНОЙ ГРАФИКИ | УСТАНОВЩИК АВТОВИНИЛА
+                  </h3>
+                  <span class="experience__company"
+                    >с 2012 по 2018 | Interdesigngroup</span
+                  >
+                  <p class="experience__description">
+                    Создание векторных макетов и изображений | обработка
+                    векторной графики и подготовка к выкройке | настройка и
+                    обслуживание оборудования для резки виниловой плёнки
+                    (плоттеров) | установка | настройка и работа с ПО для
+                    плоттеров | работа с режущими плоттерами | оклейка авто
+                    автовинилом и широкоформатной печатью | обучение персонала |
+                    администрирование сайта компании на CMS Wordpress, создание
+                    и размещение контента, установка и настройка плагинов |
+                    администрирование соц. сетей компании.
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">ОПЕРАТОР ЧПУ</h3>
+                  <span class="experience__company"
+                    >с 2009 по 2012 | Завод Автотехнологий</span
+                  >
+                  <p class="experience__description">
+                    Работа на станках с ЧПУ | плазменная резка листового металла
+                    | загрузка и настройка программ для резки.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== Языки ==========-->
+          <section class="languages section">
+            <h2 class="section-title">Языки</h2>
+
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name">
+                  <span class="languages__circle"></span> Русский (Родной)
+                </li>
+
+                <li class="languages__name">
+                  <span class="languages__circle"></span> English (Basic)
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!--========== Интересы ==========-->
+          <section class="interests section">
+            <h2 class="section-title">Увлечения</h2>
+
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bx-headphone interests__icon"></i>
+                <span class="interests__name">Музыка</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-book interests__icon"></i>
+                <span class="interests__name">Чтение</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-code interests__icon"></i>
+                <span class="interests__name">Программирование</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-vector interests__icon"></i>
+                <span class="interests__name">Векторная графика</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!--========== Прокрутка наверх ==========-->
+
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bxs-chevron-up scrolltop__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="./assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
